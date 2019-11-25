@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Using functions in Javascript -->
+    <script>
+        //function call
+    function addNumber()
+    {
+        var a=5;
+        var b=10;
+        document.write("<h1> Sum of the numbers is :"+(a+b)+"</h1>");
+    }
+    //function declaration 
+    addNumber();
+    </script>
+
+    <!-- Using functions with parameters  -->
+    <script>
+            //function call
+        function addNumber(a,b)
+        {
+            document.write("<h1> Sum of the numbers is :"+(a+b)+"</h1>");
+        }
+        //function declaration 
+        addNumber(5,5);
+        </script>
+
+        <!-- Using return value in function  -->
+        <script>
+                //function call
+            function addNumber(a,b)
+            {
+                var sum=a+b;
+                return sum;
+            }
+            //function declaration 
+           var output= addNumber(5,55);
+            document.write("<h1> Sum of the numbers is :"+output+"</h1>");
+           
+            </script>
+</body>
+</html>
