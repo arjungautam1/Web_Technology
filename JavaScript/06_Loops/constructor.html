@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascirpt Object constructors</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+    //Constructor function for person objects
+    function Person(first,last,age,eye){
+        this.firstName=first;
+        this.lastName=last;
+        this.age=age;
+        this.eyeColor=eye;
+    }
+
+    //Create two person objects
+    var myFather=new Person("John","Doe",50,"blue");
+    var myMother=new Person("Sally","Rally",48,"Green");
+
+    //Display age
+    document.getElementById("demo").innerHTML="my father is "+myFather.age+". My mother is "+myMother.age+".";
+
+    document.getElementById("demo1").innerHTML="My father name is "+myFather.firstName+" "+myFather.lastName+".";
+
+
+    </script>
+</body>
+</html>
