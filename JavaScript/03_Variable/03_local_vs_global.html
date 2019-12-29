@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Using global and local variables  -->
+    <script>
+        var b=10;
+    function addNumbers()
+    {
+        var a=5;    //local variable 
+        document.write("<h1>"+"The value of a is "+a+"</h1>");
+        document.write("<h1>"+"The value of b is :"+b+"</h1>");
+    }
+    addNumbers();
+
+
+    document.write("<h1>"+"The value of b is :"+b+"</h1>");
+
+    //Local variable can't be accessed to print outside the function .
+    document.write("The value of a is :"+a)
+   
+    </script>
+</body>
+</html>

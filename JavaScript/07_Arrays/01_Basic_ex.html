@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Using Arrays in Javascript  -->
+    <script>
+    var lang=["Java","Kotlin","Python","Javascript"];
+document.write("Most Popular programming languages in 2019 are :")
+for(var i=0;i<4;i++)
+{ 
+    
+       document.write("<h1>"+lang[i]+"</h1>");
+}
+    </script>
+
+    <!-- We can add the member of an array at runtime as well  -->
+    <script>
+
+      var lang=["Java","Kotlin","Python","Javascript"];
+      lang.push("Dart");    //This member of an array added at runtime 
+
+document.write("Most Popular programming languages in 2020 are :")
+for(var i=0;i<lang.length;i++)  //for total length in an array lang.length can also be used .
+{ 
+    
+       document.write("<h1>"+lang[i]+"</h1>");
+}
+    </script>
+</body>
+</html>
