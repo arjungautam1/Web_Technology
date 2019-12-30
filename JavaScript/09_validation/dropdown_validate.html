@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type='text/javascript'>
+    function validate()
+    {
+        var si=document.getElementById('con').selectedIndex;
+        var v=document.getElementById('con').options[si].text;
+        if(v=="Please Choose")
+        {
+            alert("You must choose your country");
+        }
+        else 
+        {
+            alert("Your country is :"+v);
+        }
+    }
+    </script>
+    <form>
+        Select Country:
+        <select id='con'>
+            <option>Please Choose:</option>
+            <option> Nepal</option>
+            <option>India</option>
+            <option>China</option>
+
+        </select>
+        <input type='button' onclick="validate()" value='Check'/>
+    </form>
+</body>
+</html>

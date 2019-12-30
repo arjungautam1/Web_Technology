@@ -7,19 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="demo"></p>
     <script>
-    var txt="";
-    var person={fname:"John",lname:"Doe",age:25};
-
-    //var person=["John","Doe","25"];
-        // this is also possible to do but it is done using fof of 
+    var cars=['BMW','Volvo','Mini'];
     var x;
-    for(x in person)
+    for(x of cars)
     {
-        txt+=person[x]+" ";
+        document.write(x+"<br>");
     }
-    document.getElementById("demo").innerHTML=txt;
     </script>
 </body>
 </html>

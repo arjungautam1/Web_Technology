@@ -9,17 +9,15 @@
 <body>
     <p id="demo"></p>
     <script>
-    var txt="";
-    var person={fname:"John",lname:"Doe",age:25};
-
-    //var person=["John","Doe","25"];
-        // this is also possible to do but it is done using fof of 
-    var x;
-    for(x in person)
-    {
-        txt+=person[x]+" ";
+    try{
+    alert("Welcome guest");
     }
-    document.getElementById("demo").innerHTML=txt;
+    catch(err)
+    {
+        document.getElementById("demo").innerHTML="This is an error";
+
+    }
+    
     </script>
 </body>
 </html>
