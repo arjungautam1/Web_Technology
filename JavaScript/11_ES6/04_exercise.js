@@ -6,7 +6,7 @@ const ingredients={
     spices:['ginger','cardamom','cinnamon','numeg']
     
 }
-//Destructure the parameters 
+//Question : Destructure the parameters
 function prepareChai(ingredients)
 {
     const tea=ingredients.tea;
@@ -21,5 +21,20 @@ function prepareChai(ingredients)
     "Simmer for 3 min .Serve masala chai hot or warm !");
 
 }
-prepareChai(ingredients)
+prepareChai(ingredients);
 
+// Although it works but the code looks clumsy 
+
+
+// Solution for destructuring with parameters 
+
+function prepareChai({tea,spices,milk,sweetner})
+{
+    console.log("Mix the "+tea+" tea "+
+    "with the "+spices+"in a small pot."+
+    "Add the cup of water and bring to boil .Boil for 2-3min"+
+    "Add "+milk +" milk and "+sweetner+"."+
+    "Simmer for 3 min .Serve masala chai hot or warm !");
+
+}
+prepareChai(ingredients);
