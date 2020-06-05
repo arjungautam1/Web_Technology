@@ -46,3 +46,20 @@ function cook({name,ingredients,timeInMinutes})
     console.log(timeInMinutes);
 }
 cook(recipe)
+
+
+//const programming_language=['Java','Javascript','Python']     //Just for reference 
+
+const [pro1]=programming_language;
+console.log(pro1)
+
+//for rest to extract 
+
+const [pro2,...other]=programming_language;
+console.log(pro2,other)
+
+//to skip 
+
+const [,,thirdlanguage]=programming_language;
+console.log(thirdlanguage)
+

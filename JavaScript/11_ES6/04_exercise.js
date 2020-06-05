@@ -1,6 +1,6 @@
 // Task4 : Exercise: EXtract data with destructuring
 const ingredients={
-    tea:'black',
+  //  tea:'black',
     milk:'DDC',
     sweetner:'honey',
     spices:['ginger','cardamom','cinnamon','numeg']
@@ -28,7 +28,7 @@ prepareChai(ingredients);
 
 // Solution for destructuring with parameters 
 
-function prepareChai({tea,spices,milk,sweetner})
+function prepareChai({tea="regular",spices,milk,sweetner})
 {
     console.log("Mix the "+tea+" tea "+
     "with the "+spices+"in a small pot."+
