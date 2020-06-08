@@ -27,6 +27,29 @@ sudo npm install -g react
  sudo npm install -g create-react-app
 
 
+Update the package:
+
+Let's try by installing previous version :
+sudo npm install eslint@5.2.0 -g
+
+npm outdated -g
+it will show :
+
+Package  Current  Wanted  Latest  Location
+eslint     5.2.0  5.16.0   7.2.0  global
+npm       6.14.4  6.14.5  6.14.5  global
+
+To Update :
+sudo npm install eslint -g 
+sudo npm install npm -g
+
+to check :
+npm outdated -g
+
+Updating the packages :
+
+
+
 
 
 
