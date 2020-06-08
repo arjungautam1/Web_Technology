@@ -46,11 +46,62 @@ sudo npm install npm -g
 to check :
 npm outdated -g
 
-Updating the packages :
+Removing a package:
+
+sudo npm uninstall babel-preset-es2015
+
+To reinstall the package again:
+sudo npm install babel-preset-env --save-dev
+
+Semantic Versioning :
+1.4.2 :
+
+1 -> Major Release 
+2-> Minor Release 
+3-> Patch Releases 
+
+Caret : 
+^1.x.x
+
+All minor and patches Ok 
+
+Tilde :
+~1.5.x
+
+All patches only 
+
+Working with npm cache :
+sudo npm cache verify
 
 
+sudo npm cache clean --force
 
 
+npm audit :
+sudo npm install socketio
+
+npm audit
+
+npm scripts:
+For reference go to 
+https://docs.npmjs.com/misc/scripts
+
+To see the live changes :
+ sudo npm install nodemon 
+
+
+scripting package.json:
+
+"start":"nodemon ./index.js --exex babel-node -e js"
+
+or same thing can be done by :
+sudo npm start
+
+
+npx:
+
+alternative to npm :
+yarn 
 
 
 
