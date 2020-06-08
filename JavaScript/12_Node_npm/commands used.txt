@@ -1,0 +1,34 @@
+For 12.04 LTS version 
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs
+
+initializing package.json filw
+ npm init
+
+Adding package globally 
+
+ npm install express
+
+ dev dependencies :
+npm install babel-cli babel-preset-stage-0  babel-preset-es2015 --save-dev
+
+Global Directory 
+usr/local/lib/node_modules 
+
+install react globally
+
+sudo npm install -g react
+
+ sudo npm install -g create-react-app
+
+
+
+
+
+
+
