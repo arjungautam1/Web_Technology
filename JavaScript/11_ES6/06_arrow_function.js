@@ -1,4 +1,4 @@
-/*
+
 const numbers=[1,2,3,4,5,6]
 let doubledNumbers=numbers.map(
     function(number)
@@ -7,7 +7,7 @@ let doubledNumbers=numbers.map(
     }
 )
 console.log(doubledNumbers)
-*/
+
 
 // To simplify the above code we use the arrow function  ' => '
 
