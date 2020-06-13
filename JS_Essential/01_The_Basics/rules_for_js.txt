@@ -1,0 +1,26 @@
+1.Js is case sensitive 
+
+var date =new date(); //here Date() should be used since it is constructor date is nothing 
+
+2.Use camelCase
+
+i.variables start with lowercase ,methods 
+getElementByTagName()
+var greenDuck;
+var aliceTheCamelHasFiveHumps;
+
+ii.Objects and classes start with uppercase letter;
+var date=new Date();
+
+//Constants are all-caps:
+const=CONSTANTLYUPPERCASE;
+
+3.Whitespace matters (to Humans )
+    //Best to use 
+4.End Each Statement with a Semicolon 
+
+    //Best to use 
+
+5.Use comments liberally
+
+    
