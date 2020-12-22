@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498b1862-2eed-415b-89e5-babfc5d81993" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Web_Technology.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_SandBox/01_Output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_SandBox/02_Output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_SandBox/03_Output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_SandBox/04_Output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ldRNUw50AuUb71hHdNffGbr3rB" />
   <component name="ProjectLevelVcsManager">
@@ -54,10 +53,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.05_Output.html">
-    <configuration name="02_Output.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/02_Output.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.06_Form_Validation.html">
     <configuration name="03_Output.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/03_Output.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -70,13 +66,16 @@
     <configuration name="05_Output.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/05_Output.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="06_Form_Validation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/06_Form_Validation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.06_Form_Validation.html" />
         <item itemvalue="JavaScript Debug.05_Output.html" />
         <item itemvalue="JavaScript Debug.04_Ouput.html" />
         <item itemvalue="JavaScript Debug.04_Output.html" />
         <item itemvalue="JavaScript Debug.03_Output.html" />
-        <item itemvalue="JavaScript Debug.02_Output.html" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +87,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607924941303</updated>
-      <workItem from="1607924942399" duration="2124000" />
+      <workItem from="1607924942399" duration="2956000" />
+      <workItem from="1608101941218" duration="6000" />
+      <workItem from="1608284470727" duration="8000" />
+      <workItem from="1608595512822" duration="382000" />
     </task>
     <servers />
   </component>
