@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSOn using local storage</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    let myObj, myJSON, text, obj;
+
+    //Storing data
+    myObj = {name: "Arjun", age: 21, city: "Nepal"};
+    myJSON = JSON.stringify(myObj);
+    localStorage.setItem("testJSON", myJSON);
+
+    //Retrieving data
+    text = localStorage.getItem("textJSON");
+    obj = JSON.parse(text);
+    document.getElementById("demo").innerHTML = obj.name;
+
+
+</script>
+
+</body>
+</html>
