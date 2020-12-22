@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498b1862-2eed-415b-89e5-babfc5d81993" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1607924942399" duration="2956000" />
       <workItem from="1608101941218" duration="6000" />
       <workItem from="1608284470727" duration="8000" />
-      <workItem from="1608595512822" duration="382000" />
+      <workItem from="1608595512822" duration="913000" />
     </task>
     <servers />
   </component>

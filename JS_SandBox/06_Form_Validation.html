@@ -5,11 +5,15 @@
     <title>Form Validation</title>
     <script>
         function validationForm() {
-            const x = document.forms["myForm"]
-                ["name"].value;
+            const x = document.forms["myForm"]["name"].value;
+            const y=document.forms["myForm"]["caste"].value
             if (x == "") {
                 alert("Name must be filled out")
                 return false;
+            }
+            if(y=="")
+            {
+                alert("Last Name cannot be blank")
             }
         }
     </script>
@@ -17,7 +21,9 @@
 <body>
 <form name="myForm" action="" onsubmit="return validationForm()" method="post">
     Name:<input type="text" name="name">
+    Last Name: <input type="text" name="caste">
     <input type="submit" value="Submit">
+
 </form>
 </body>
 </html>
