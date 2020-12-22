@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numeric Validation</title>
+    <p>Please input anumber between 1 to 10 </p>
+    <input id="numb">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+</head>
+<body>
+<script>
+    function myFunction() {
+        let x, text;
+
+        x = document.getElementById("numb").value;
+        if (isNaN(x) || x < 1 || x > 10) {
+            text = "Input not valid";
+        } else {
+            text = "Input OK";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
+</body>
+</html>

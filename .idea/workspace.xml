@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498b1862-2eed-415b-89e5-babfc5d81993" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS_SandBox/07_NumericValidation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_SandBox/06_Form_Validation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +53,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.06_Form_Validation.html">
-    <configuration name="03_Output.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/03_Output.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.07_NumericValidation.html">
     <configuration name="04_Ouput.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/04_Ouput.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -69,13 +66,16 @@
     <configuration name="06_Form_Validation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/06_Form_Validation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="07_NumericValidation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Technology/JS_SandBox/07_NumericValidation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.07_NumericValidation.html" />
         <item itemvalue="JavaScript Debug.06_Form_Validation.html" />
         <item itemvalue="JavaScript Debug.05_Output.html" />
         <item itemvalue="JavaScript Debug.04_Ouput.html" />
         <item itemvalue="JavaScript Debug.04_Output.html" />
-        <item itemvalue="JavaScript Debug.03_Output.html" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +90,7 @@
       <workItem from="1607924942399" duration="2956000" />
       <workItem from="1608101941218" duration="6000" />
       <workItem from="1608284470727" duration="8000" />
-      <workItem from="1608595512822" duration="913000" />
+      <workItem from="1608595512822" duration="2276000" />
     </task>
     <servers />
   </component>
